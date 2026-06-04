@@ -7,5 +7,13 @@ export const questions = [
       options: ["Detroit", "Lansing", "Ann Arbor", "Grand Rapids"],
       correctAnswer: "Lansing",
     },
-    // Add more questions here...
+    {
+      id: "2",
+      questionText: "Which of the following is a synonym for 'fast'?",
+      options: ["Slow", "Quick", "Heavy", "Bright"],
+      correctAnswer: "Quick",
+    }
   ];
+
+// Ensure we have a default export if you ever decide to import it that way
+export default questions;
